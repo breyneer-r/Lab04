@@ -63,7 +63,7 @@ fun MyComponents(modifier: Modifier = Modifier) {
         TextField(
             value = textState.value,
             onValueChange = { textState.value = it },
-            label = { Text("Enter text here") }
+            label = { Text("Nuevo nombre de la película") }
         )
     }
 }
