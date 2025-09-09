@@ -44,7 +44,7 @@ fun MyComponents(modifier: Modifier = Modifier) {
     Column(modifier = modifier.padding(16.dp)) {
         // Primer componente para el commit
         Button(onClick = { /* Acción */ }) {
-            Text("Mi Boton")
+            Text("Mi Botón Actualizado")
         }
 
         Spacer(modifier = Modifier.height(16.dp))
